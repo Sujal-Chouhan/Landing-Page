@@ -88,3 +88,76 @@ a {
     border: 0;
 }
 
+.card img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    border: 4px solid rgb(115, 192, 255);
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    gap: 50px;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.cards {
+    display:flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 0 300px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 8px;
+    text-align: center;
+    align-items: center;
+}
+
+.img-subtext {
+    width: 135px;
+    color: #5a5b5f;
+}
+
+.container {
+    display: flex;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.quote-container {
+    display:flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+    width: 600px;
+}
+
+.quote-signature {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 20px;
+}
